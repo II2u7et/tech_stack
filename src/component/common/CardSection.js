@@ -8,13 +8,14 @@ const CardSection = (props) =>
 
 const style = StyleSheet.create({
     container:{
-        // borderBottomWidth: 2,
+        borderBottomWidth: 2,
         padding: 5,
-        // backgroundColor: 'white',
+        backgroundColor: 'white',
         justifyContent: "flex-start",
         flexDirection: "row",
-        // borderColor: '#93d2f3',
-        position: 'relative'
+        borderColor: '#93d2f3',
+        position: 'relative',
+        
     }
 })
 
